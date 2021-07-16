@@ -19,9 +19,9 @@ const Break = () => {
         <div className="break-main">
             <h2>Break length</h2>
             <div className="btn-arrow">
-                <button type="btn" onClick={clickDown}><FaAngleDown /></button>
+                <button type="button" onClick={clickDown}><FaAngleDown /></button>
                  <h3>{count}</h3>
-                <button type="btn" onClick={clickUp}><FaAngleUp /></button> 
+                <button type="button" onClick={clickUp}><FaAngleUp /></button> 
             </div>
         </div>
     )
