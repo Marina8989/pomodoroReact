@@ -1,9 +1,13 @@
 import React from 'react';
+import Header from './Header';
+import './index.css';
+import Break from './Break';
 
 function App() {
     return (
-        <div>
-            <h2>App...</h2>
+        <div className="container">
+            <Header />
+            <Break />
         </div>
     )
 }
