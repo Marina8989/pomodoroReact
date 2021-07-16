@@ -14,7 +14,8 @@ const Session = () => {
         setCount(count + 1);
     }
     return (
-        <div className="break-main">
+       <> 
+        <div className="session-main">
             <h2>Session length</h2>
             <div className="btn-arrow">
                 <button type="btn" onClick={clickDown}><FaAngleDown /></button>
@@ -22,6 +23,11 @@ const Session = () => {
                 <button type="btn" onClick={clickUp}><FaAngleUp /></button> 
             </div>
         </div>
+        <div className="session-time">
+             <h2>Session Time</h2>
+             <h4 className="timer">{count < 10 ? `0${count}` : `${count}:00`}</h4>
+        </div>
+      </>  
     )
 }
 

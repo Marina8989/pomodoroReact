@@ -13,6 +13,13 @@
 .break-main{
     margin: 1rem 2rem;
 }
+.session-main{
+    margin: 1rem 2rem;
+}
+.session-time{
+     margin: 1rem 2rem;
+     border: 1px solid yellow;
+}
 .btn-arrow{
     display: flex;
     justify-content: space-around;
@@ -23,4 +30,10 @@
 .time{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid purple;
+}
+.timer{
+    text-align: center;
+    margin: 1rem;
 }
